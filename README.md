@@ -27,20 +27,22 @@ This project demonstrates a complete aviation analytics workflow:
 
 ---
 
+
 ## 🗂️ Project Structure
 
-
+```
 aviation-demand-predictor/
 ├── 01_scraping.ipynb          # Data collection & mock dataset generation
-├── 02_api_enrichment.ipynb    # AviationStack API integration
+├── 02_api_enrichment.ipynb    # AviationStack API integration  
 ├── 03_forecasting.ipynb       # EDA, Prophet model, business insights
-├── flights_raw.csv            # Raw scraped flight data
+├── flights_raw.csv            # Raw scraped flight data (975 rows)
 ├── flights_enriched.csv       # API-enriched dataset (975 rows × 14 cols)
-├── forecast_output.csv        # 30-day demand forecast
+├── forecast_output.csv        # 30-day demand forecast with confidence bounds
 ├── eda_charts.png             # Exploratory analysis visuals
-└── forecast_chart.png         # Prophet forecast + weekly seasonality
+├── forecast_chart.png         # Prophet forecast + weekly seasonality
+└── README.md                  # Project documentation
+```
 
----
 
 ## 📈 Sample Visualizations
 
